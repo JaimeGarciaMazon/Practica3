@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Datos personales</string>
+    <string name="FaltaEdad">السن في عداد المفقودين</string>
+    <string name="txtApellidos">اسم العائلة:</string>
+    <string name="Casado">متزوج</string>
+    <string name="txtEdad">العمر:</string>
+    <string name="edtEdad">اكتب هنا من عمرك</string>
+    <string name="edtNombre">اكتب اسمك هنا</string>
+    <string name="txtEstadoCivil">اسم العائلة:</string>
+    <string name="FaltaNombre">اكتب هنا من عمرك</string>
+    <string name="edtApellidos">متزوج</string>
+    <string name="FaltaApellidos">العمر:</string>
+    <string name="txtGenerar">توليد</string>
+    <string name="txtGenero">النوع:</string>
+    <string name="txtHijos">الأطفال:</string>
+    <string name="btnHombre">النوع:</string>
+    <string name="MayorEdad">أكبر من العمر</string>
+    <string name="MenorEdad">اكتب هنا من عمرك</string>
+    <string name="NoTieneHijos">اكتب اسمك هنا</string>
+    <string name="btnMujer">توليد</string>
+    <string name="txtNombre">النوع:</string>
+    <string name="Otro">النوع:</string>
+    <string name="Separado">منفصلة</string>
+    <string name="TieneHijos">وقد الأطفال</string>
+    <string name="Viudo">أرمل</string>
+</resources>

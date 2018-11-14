@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Datos personales</string>
+    <string name="txtNombre">Nome:</string>
+    <string name="edtNombre">" Escreva seu nome aqui:"</string>
+    <string name="txtApellidos">Apelido:</string>
+    <string name="edtApellidos">" Escreva seu sobrenome aqui"</string>
+    <string name="txtEdad">Idade:</string>
+    <string name="edtEdad">" Escreva sua idade aqui"</string>
+    <string name="txtGenero">Gênero:</string>
+    <string name="btnHombre">" Homem"</string>
+    <string name="btnMujer">" Mulher"</string>
+    <string name="txtEstadoCivil">Estado Civil:</string>
+    <string name="txtHijos">" Crianças:"</string>
+    <string name="txtGenerar">" Gerar"</string>
+    <string name="Casado">Se casado</string>
+    <string name="Separado">Separe</string>
+    <string name="Viudo">Viúvo</string>
+    <string name="Otro">Outro</string>
+    <string name="TieneHijos">Tem filhos</string>
+    <string name="NoTieneHijos">Não tem filhos</string>
+    <string name="MayorEdad">Maior do que a idade</string>
+    <string name="MenorEdad">Idade da criança</string>
+    <string name="FaltaNombre">Faltando nome</string>
+    <string name="FaltaApellidos">Faltando os sobrenomes</string>
+    <string name="FaltaEdad">Falta a idade</string>
+</resources>
