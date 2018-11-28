@@ -1,221 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout style="@style/Layoutvertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginLeft="20dp"
-    android:layout_marginTop="30dp"
-    android:layout_marginRight="20dp"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
+    <LinearLayout style="@style/Layouthorizontal">
 
-        <TextView
-            android:id="@+id/txtNombre"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/txtNombre"
-            android:textSize="18sp" />
+        <TextView style="@style/txtNombre" />
 
-        <EditText
-            android:id="@+id/edtNombre"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:capitalize="words"
-            android:ems="10"
-            android:gravity="center"
-            android:hint="@string/edtNombre"
-
-            android:inputType="text|textCapWords"
-            android:textAllCaps="true" />
+        <EditText style="@style/edtNombre" />
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
+    <LinearLayout style="@style/Layouthorizontal">
 
-        <TextView
-            android:id="@+id/txtApellidos"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/txtApellidos"
-            android:textSize="18sp" />
+        <TextView style="@style/txtApellidos"/>
 
-        <EditText
-            android:id="@+id/edtApellidos"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:capitalize="words"
-            android:ems="10"
-            android:gravity="center"
-            android:hint="@string/edtApellidos"
-            android:inputType="textCapWords"
-            android:textAllCaps="true" />
+        <EditText style="@style/edtApellidos"/>
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
+    <LinearLayout style="@style/Layouthorizontal">
 
-        <TextView
-            android:id="@+id/txtEdad"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/txtEdad"
-            android:textSize="18sp" />
+         <TextView style="@style/txtEdad"/>
 
-        <EditText
-            android:id="@+id/edtEdad"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="45dp"
-            android:layout_marginRight="40dp"
-            android:layout_weight="1"
-            android:ems="10"
-            android:gravity="center"
-            android:hint="@string/edtEdad"
-            android:inputType="number" />
+        <EditText style="@style/edtEdad"/>
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="10dp"
-        android:orientation="horizontal">
+    <LinearLayout style="@style/Layouthorizontal.top">
 
-        <TextView
-            android:id="@+id/txtGenero"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/txtGenero"
-            android:textSize="18sp" />
+        <TextView style="@style/txtGenero"/>
 
-        <RadioGroup
-            android:id="@+id/grupoGenero"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:orientation="vertical">
+        <RadioGroup style="@style/grupoGenero">
 
-            <RadioButton
-                android:id="@+id/btnHombre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/btnHombre"
-                android:textStyle="bold" />
+            <RadioButton style="@style/btnHombre"/>
 
-            <RadioButton
-                android:id="@+id/btnMujer"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/btnMujer"
-                android:textStyle="bold" />
+            <RadioButton style="@style/btnMujer"/>
+
         </RadioGroup>
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="10dp"
-        android:orientation="horizontal">
+    <LinearLayout style="@style/Layouthorizontal.top">
 
-        <TextView
-            android:id="@+id/txtEstadoCivil"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/txtEstadoCivil"
-            android:textSize="18sp" />
+        <TextView style="@style/txtEstadoCivil"/>
 
-        <Spinner
-            android:id="@+id/spinnerLista"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:backgroundTintMode="multiply"
-            android:dropDownWidth="match_parent" />
+        <Spinner style="@style/spinnerLista"/>
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:orientation="horizontal">
+    <LinearLayout style="@style/Layouthorizontal.center">
 
-        <TextView
-            android:id="@+id/txtHijos"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/txtHijos"
-            android:textSize="18sp" />
+        <TextView style="@style/txtHijos"/>
 
-        <Switch
-            android:id="@+id/switchHijos"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginRight="200dp"
-            android:layout_weight="1"
-            android:text="."
-            android:textOff="No"
-            android:textOn="Si" />
+        <Switch style="@style/switchHijos"/>
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:orientation="horizontal">
+    <LinearLayout style="@style/Layouthorizontal.gravity">
 
-        <Button
-            android:id="@+id/btnGenerar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="-15dp"
-            android:gravity="center_vertical"
-            android:text="@string/txtGenerar" />
+        <Button style="@style/btnGenerar"/>
 
         <ImageButton
-            android:id="@+id/ImgX"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="35dp"
-            app:srcCompat="@android:drawable/btn_dialog"
-            tools:srcCompat="@android:drawable/btn_dialog" />
+
+            style="@style/ImgX"/>
+
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
+    <LinearLayout style="@style/Layouthorizontal1">
 
-        <TextView
-            android:id="@+id/txtResultado"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_weight="1"
-            android:textStyle="bold" />
+        <TextView  style="@style/txtResultado"/>
     </LinearLayout>
 
 </LinearLayout>
