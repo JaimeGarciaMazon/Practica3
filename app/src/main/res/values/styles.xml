@@ -42,7 +42,7 @@
        <item name="android:textAllCaps">true</item>
    </style>
     <style name="txtApellidos" parent="AppTheme">
-        <item name="android:id"> @+id/txtNombre</item>
+        <item name="android:id"> @+id/txtApellidos</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:text">@string/txtApellidos</item>
