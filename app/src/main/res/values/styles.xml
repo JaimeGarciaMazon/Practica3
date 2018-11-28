@@ -7,5 +7,191 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name="Layoutvertical" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="tools:context">.MainActivity</item>
+    </style>
+    <style name="Layouthorizontal" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="txtNombre" parent="AppTheme">
+        <item name="android:id"> @+id/txtNombre</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/txtNombre</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/Simplisicky</item>
+    </style>
+   <style name="edtNombre" parent="AppTheme">
+       <item name="android:id"> @+id/edtNombre</item>
+       <item name="android:layout_width">wrap_content</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:layout_marginLeft">20dp</item>
+       <item name="android:capitalize">words</item>
+       <item name="android:ems">10</item>
+       <item name="android:gravity">center</item>
+       <item name="android:hint">@string/edtNombre</item>
+       <item name="android:inputType">text|textCapWords</item>
+       <item name="android:textAllCaps">true</item>
+   </style>
+    <style name="txtApellidos" parent="AppTheme">
+        <item name="android:id"> @+id/txtNombre</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/txtApellidos</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/Azul</item>
+        <item name="android:fontFamily">@font/Estave</item>
+    </style>
+    <style name="edtApellidos" parent="AppTheme">
+        <item name="android:id"> @+id/edtApellidos</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:capitalize">words</item>
+        <item name="android:ems">10</item>
+        <item name="android:gravity">center</item>
+        <item name="android:hint">@string/edtApellidos</item>
+        <item name="android:inputType">text|textCapWords</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="txtEdad" parent="AppTheme">
+        <item name="android:id"> @+id/txtEdad</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/txtEdad</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/btnMujer</item>
+        <item name="android:fontFamily">@font/MorrisRomanBlack</item>
+    </style>
+    <style name="edtEdad" parent="AppTheme">
+        <item name="android:id"> @+id/edtEdad</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">45dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:ems">10</item>
+        <item name="android:gravity">center</item>
+        <item name="android:hint">@string/edtEdad</item>
+        <item name="android:inputType">number</item>
+    </style>
+    <style name="Layouthorizontal.top" parent="Layouthorizontal">
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+    <style name="txtGenero" parent="AppTheme">
+        <item name="android:id"> @+id/txtGenero</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/txtGenero</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/Estave</item>
+    </style>
+    <style name="grupoGenero" parent="AppTheme">
+        <item name="android:id"> @+id/grupoGenero</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="btnHombre" parent="AppTheme">
+        <item name="android:id"> @+id/btnHombre</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:text">@string/btnHombre</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="btnMujer" parent="AppTheme">
+        <item name="android:id"> @+id/btnMujer</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:text">@string/btnMujer</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="txtEstadoCivil" parent="AppTheme">
+        <item name="android:id"> @+id/txtEstadoCivil</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/txtEstadoCivil</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/MorrisRomanBlack</item>
+    </style>
+    <style name="spinnerLista" parent="AppTheme">
+        <item name="android:id"> @+id/spinnerLista</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:backgroundTintMode">multiply</item>
+        <item name="android:dropDownWidth">match_parent</item>
+    </style>
+    <style name="Layouthorizontal.center" parent="Layouthorizontal.top">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="txtHijos" parent="AppTheme">
+        <item name="android:id"> @+id/txtHijos</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/txtHijos</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="switchHijos" parent="AppTheme">
+        <item name="android:id"> @+id/switchHijos</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginRight">200dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:text">.</item>
+        <item name="android:textOff">No</item>
+        <item name="android:textOn">Si</item>
+    </style>
+    <style name="Layouthorizontal.gravity" parent="Layouthorizontal">
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="btnGenerar" parent="AppTheme">
+        <item name="android:id"> @+id/btnGenerar</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">-15dp</item>
+        <item name="android:gravity">center_vertical</item>
+       <item name="android:text">@string/txtGenerar</item>
+    </style>
+    <style name="ImgX" parent="AppTheme">
+        <item name="android:id"> @+id/ImgX</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">35dp</item>
+        <item name="app:srcCompat">@android:drawable/btn_dialog</item>
+        <item name="tools:srcCompat">@android:drawable/btn_dialog</item>
+
+    </style>
+    <style name="Layouthorizontal1" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="txtResultado" parent="AppTheme">
+        <item name="android:id"> @+id/txtResultado</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name=" android:layout_marginTop">10dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TemaJaime" parent="AppTheme" >
+        <item name="android:colorBackground">@color/background_material_light</item>
+    </style>
 
 </resources>
