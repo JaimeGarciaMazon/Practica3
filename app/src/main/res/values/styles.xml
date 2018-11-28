@@ -14,7 +14,7 @@
         <item name="android:layout_marginTop">30dp</item>
         <item name="android:layout_marginRight">20dp</item>
         <item name="android:orientation">vertical</item>
-        <item name="tools:context">.MainActivity</item>
+
     </style>
     <style name="Layouthorizontal" parent="AppTheme">
         <item name="android:layout_width">match_parent</item>
@@ -27,7 +27,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:text">@string/txtNombre</item>
         <item name="android:textSize">18sp</item>
-        <item name="android:fontFamily">@font/Simplisicky</item>
+        <item name="android:fontFamily">@font/simplisicky</item>
     </style>
    <style name="edtNombre" parent="AppTheme">
        <item name="android:id"> @+id/edtNombre</item>
@@ -48,7 +48,7 @@
         <item name="android:text">@string/txtApellidos</item>
         <item name="android:textSize">18sp</item>
         <item name="android:textColor">@color/Azul</item>
-        <item name="android:fontFamily">@font/Estave</item>
+        <item name="android:fontFamily">@font/morrisromanblack</item>
     </style>
     <style name="edtApellidos" parent="AppTheme">
         <item name="android:id"> @+id/edtApellidos</item>
@@ -70,7 +70,7 @@
         <item name="android:text">@string/txtEdad</item>
         <item name="android:textSize">18sp</item>
         <item name="android:textColor">@color/btnMujer</item>
-        <item name="android:fontFamily">@font/MorrisRomanBlack</item>
+        <item name="android:fontFamily">@font/morrisromanblack</item>
     </style>
     <style name="edtEdad" parent="AppTheme">
         <item name="android:id"> @+id/edtEdad</item>
@@ -93,7 +93,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:text">@string/txtGenero</item>
         <item name="android:textSize">18sp</item>
-        <item name="android:fontFamily">@font/Estave</item>
+        <item name="android:fontFamily">@font/simplisicky</item>
     </style>
     <style name="grupoGenero" parent="AppTheme">
         <item name="android:id"> @+id/grupoGenero</item>
@@ -124,7 +124,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:text">@string/txtEstadoCivil</item>
         <item name="android:textSize">18sp</item>
-        <item name="android:fontFamily">@font/MorrisRomanBlack</item>
+        <item name="android:fontFamily">@font/morrisromanblack</item>
     </style>
     <style name="spinnerLista" parent="AppTheme">
         <item name="android:id"> @+id/spinnerLista</item>
@@ -172,8 +172,8 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginLeft">35dp</item>
-        <item name="app:srcCompat">@android:drawable/btn_dialog</item>
-        <item name="tools:srcCompat">@android:drawable/btn_dialog</item>
+
+
 
     </style>
     <style name="Layouthorizontal1" parent="AppTheme">
